@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Toko Sembako</title>
+</head>
+
+<body>
+    <h1>Toko Sembako</h1>
+    <table>
+      <tr>
+        <td>
+          <form autocomplete="off" onsubmit="onFormSubmit()">
+            <div>
+              <label for="productCode">Kode Produk</label>
+              <input
+                type="text"
+                name="productCode"
+                id="productCode"
+                placeholder="Masukkan kode produk"
+              />
+            </div>
+            <div>
+              <label for="product">Nama Produk</label>
+              <input
+                type="text"
+                name="product"
+                id="product"
+                placeholder="Masukkan nama produk"
+              />
+            </div>
+            <div>
+              <label for="qty">Jumlah Produk</label>
+              <input
+                type="number"
+                name="qty"
+                id="qty"
+                placeholder="Masukkan jumlah produk"
+              />
+            </div>
+            <div>
+              <label for="perPrice">Harga Produk</label>
+              <input
+                type="number"
+                name="perPrice"
+                id="perPrice"
+                placeholder="Masukkan harga per produk"
+              />
+            </div>
+            <div class="form_action--button">
+              <input type="submit" value="Simpan" />
+              <input type="reset" value="Bersihkan" />
+            </div>
+          </form>
+          <td>
+            <div class="table-wrapper">
+            <table class="list" id="storeList">
+                <thead>
+                    <tr>
+                        <th>Kode Produk</th>
+                        <th>Nama Produk</th>
+                        <th>Jumlah Produk</th>
+                    <th>Harga Produk</th>
+                    <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="3" style="text-align:right;padding:12px 20px;font-weight:700;">Grand Total</td>
+                    <td id="grandTotal" colspan="2" style="padding:12px 20px;font-weight:700;">Rp 0</td>
+                  </tr>
+                </tfoot>
+            </table>
+            </div>
+          </td>
+        </td>
+      </tr>
+    </table>
+</body>
+<script src="/script.js"></script>
+
+</html>
