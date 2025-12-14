@@ -52,10 +52,6 @@ Catatan Pengembangan
 - `nodemon` disarankan untuk pengembangan; jalankan `npm run dev`.
 - Jika ingin menambahkan fitur: validasi input lebih ketat, ekspor/import data (CSV/JSON), atau integrasi backend.
 
-Kontribusi
-----------
-PR diterima. Usulan perubahan kecil dan fokus lebih mudah direview (gaya, validasi, penambahan fitur ekspor/import, dll.).
-
 Lisensi
 -------
-MIT — bebas digunakan dan dimodifikasi.
+bebas digunakan dan dimodifikasi.
