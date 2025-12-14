@@ -1,6 +1,6 @@
 # Toko Sembako
 
-Aplikasi web sederhana untuk mengelola data produk toko sembako dengan perhitungan total per baris dan Grand Total. Data disimpan di `localStorage` agar tetap tersimpan di browser.
+Aplikasi web sederhana untuk mengelola data produk toko sembako dengan perhitungan total per baris dan Grand Total/Total keseleluruhan. Data disimpan di `localStorage` agar tetap tersimpan di browser.
 
 Fitur
 -----
@@ -33,13 +33,7 @@ npm install
 npm run dev
 ```
 
-3. Atau jalankan biasa:
-
-```bash
-npm start
-```
-
-Buka `http://localhost:3000` di browser, atau buka `index.html` langsung jika tidak menggunakan server.
+Buka `http://localhost:3000` di browser.
 
 Catatan Penggunaan
 ------------------
